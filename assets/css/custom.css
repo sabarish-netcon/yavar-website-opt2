@@ -107,6 +107,11 @@
   .vpn-hero-body {
     max-width: none;
     width: calc(100% - 480px - 48px);
+    height: 480px !important;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .vpn-hero-body {
     float: left;
