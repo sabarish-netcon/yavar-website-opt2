@@ -1,3 +1,21 @@
+/* // Option 1 */
+/* :root { // Option 1
+  --primary: rgb(85, 0, 141);
+  --background: rgba(85, 0, 141, 0.3);
+} */
+
+/* // Option 2
+:root {
+  --primary: rgb(255, 0, 92);
+  --background: rgba(255, 0, 92, 0.3);
+} */
+
+/* // Option 3 */
+:root {
+  --primary: rgb(255, 164, 21);
+  --background: rgba(255, 164, 21, 0.3);
+}
+
 .vpn-hero {
   /* margin: 48px 0 0; */
   text-align: center;
@@ -216,13 +234,13 @@
 }
 .vpn-content-block.t-highlight {
   color: #000;
-  outline: 4px solid #5340b4;
+  outline: 4px solid var(--primary);
 }
 .vpn-content-block.t-highlight .vpn-content-block-container {
   background-color: #fff;
 }
 .vpn-content-block.t-highlight:after {
-  background: #c4c6fc;
+  background: var(--background);
 }
 .vpn-content-block .l-columns-two .l-column-first {
   margin-bottom: 32px;
@@ -566,7 +584,7 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  background: #5340b4;
+  background: var(--primary);
   color: #fff;
   font-weight: 700;
   left: 0;
@@ -583,7 +601,8 @@ html[lang^="en"] .vpn-pricing-variable-plans .vpn-pricing-variable-plan-tag {
   font-size: 18px;
   font-size: 1.125rem;
   line-height: 1.11;
-  color: #5340b4;
+
+  color: var(--primary);
   font-weight: 700;
   margin: 48px 0 16px;
 }
@@ -1158,4 +1177,8 @@ html[lang^="en"] .vpn-featured-press-logos .vpn-featured-press-heading {
 .vpn-faq-footer-link {
   display: inline-block;
   margin-bottom: 24px;
+}
+
+.black {
+  color: #000 !important;
 }
