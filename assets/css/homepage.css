@@ -68,7 +68,7 @@ h1 {
 
 .all-caps {
   font-style: normal;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .static-header {
@@ -97,8 +97,8 @@ h1 {
 }
 
 .hero-h1.rotational-word-member {
-  font-size: 55px;
-  line-height: 65px;
+  font-size: 48px;
+  font-weight: bold;
 }
 
 .rotation-wrapper.full-line {
@@ -129,4 +129,29 @@ h1 {
   -ms-transform: rotate(0deg);
   transform: rotate(0deg);
   text-align: left;
+}
+
+.landing-page-yavar-section {
+  /* background-color: rgba(196, 198, 252, 0.05); */
+  position: relative;
+}
+
+.landing-page-yavar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing-page-image {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 400px;
+}
+
+.landing-page-image2 {
+  position: absolute;
+  right: 0px;
+  top: 2px;
+  width: 400px;
 }
