@@ -1,51 +1,3 @@
-@font-face {
-  font-display: swap;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 400;
-  src: url("/media/fonts/Inter-Regular.d55e957612a3.woff2") format("woff2"),
-    url("/media/fonts/Inter-Regular.1a7f90ff1f1e.woff") format("woff");
-}
-@font-face {
-  font-display: swap;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 700;
-  src: url("/media/fonts/Inter-Bold.0564381b22b2.woff2") format("woff2"),
-    url("/media/fonts/Inter-Bold.2767206dcd8d.woff") format("woff");
-}
-@font-face {
-  font-display: swap;
-  font-family: Inter;
-  font-style: italic;
-  font-weight: 400;
-  src: url("/media/fonts/Inter-Italic.d6a4e2b82a0b.woff2") format("woff2"),
-    url("/media/fonts/Inter-Italic.fb463a63312e.woff") format("woff");
-}
-@font-face {
-  font-display: swap;
-  font-family: Inter;
-  font-style: italic;
-  font-weight: 700;
-  src: url("/media/fonts/Inter-BoldItalic.9d1b867e3416.woff2") format("woff2"),
-    url("/media/fonts/Inter-BoldItalic.d4f1ac27c3c1.woff") format("woff");
-}
-@font-face {
-  font-display: swap;
-  font-family: "Zilla Slab";
-  font-style: normal;
-  font-weight: 400;
-  src: url("/media/fonts/ZillaSlab-Regular.f9de6143fdfa.woff2") format("woff2"),
-    url("/media/fonts/ZillaSlab-Regular.f7120c75de27.woff") format("woff");
-}
-@font-face {
-  font-display: swap;
-  font-family: "Zilla Slab";
-  font-style: normal;
-  font-weight: 700;
-  src: url("/media/fonts/ZillaSlab-Bold.8d7f01331d2b.woff2") format("woff2"),
-    url("/media/fonts/ZillaSlab-Bold.be1d6507cb98.woff") format("woff");
-}
 article,
 aside,
 details,
@@ -1190,7 +1142,7 @@ h6 {
   font-size: 4.125rem;
   line-height: 1;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-  Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 @media (min-width: 768px) {
   .mzp-u-title-2xl {
@@ -1204,7 +1156,7 @@ h6 {
   font-size: 3.5rem;
   line-height: 1;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-  Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 @media (min-width: 768px) {
   .mzp-u-title-xl {
@@ -1218,7 +1170,7 @@ h6 {
   font-size: 3rem;
   line-height: 1;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-  Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 @media (min-width: 768px) {
   .mzp-u-title-lg {
@@ -1231,7 +1183,7 @@ h6 {
   font-size: 38px;
   font-size: 2.375rem;
   line-height: 1.05;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 @media (min-width: 768px) {
@@ -1245,7 +1197,7 @@ h6 {
   font-size: 28px;
   font-size: 1.75rem;
   line-height: 1.07;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 @media (min-width: 768px) {
@@ -1259,7 +1211,7 @@ h6 {
   font-size: 24px;
   font-size: 1.5rem;
   line-height: 1.08;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 @media (min-width: 768px) {
@@ -1273,7 +1225,7 @@ h6 {
   font-size: 18px;
   font-size: 1.125rem;
   line-height: 1.11;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 @media (min-width: 768px) {
@@ -1296,7 +1248,8 @@ a.mzp-c-button {
   border: 2px solid transparent;
   cursor: pointer;
   display: inline-block;
-  font-family: Inter, X-LocaleSpecific, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 700;
   line-height: 1.5;
   padding: 6px 24px;
@@ -1649,7 +1602,8 @@ a.mzp-c-button.mzp-t-neutral.mzp-t-dark:active {
   padding: 8px;
 }
 .mzp-c-card .mzp-c-card-tag {
-  font-family: Inter, X-LocaleSpecific, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 14px;
   font-size: 0.875rem;
   line-height: 1.5;
@@ -1948,7 +1902,8 @@ ul.download-list strong {
   display: block;
 }
 .c-footer {
-  font-family: Inter, X-LocaleSpecific, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background: #f9f9fa;
   clear: both;
   color: #000;
@@ -2258,7 +2213,8 @@ ul.download-list strong {
 }
 .c-footer-heading,
 .c-footer-heading button {
-  font-family: Inter, X-LocaleSpecific, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.5;
@@ -2780,7 +2736,8 @@ html.is-firefox.ios .c-navigation .c-navigation-fxa-cta-container {
 .c-menu h4,
 .c-menu h5,
 .c-menu h6 {
-  font-family: Inter, X-LocaleSpecific, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 @media (min-width: 768px) {
   .c-menu {
@@ -2809,7 +2766,8 @@ html.is-firefox.ios .c-navigation .c-navigation-fxa-cta-container {
   position: relative;
 }
 .c-menu-category .c-menu-title {
-  font-family: Inter, X-LocaleSpecific, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.5;
@@ -3497,7 +3455,8 @@ html.is-firefox.ios .c-navigation .c-navigation-fxa-cta-container {
   margin-left: 8px;
 }
 .c-sub-navigation .c-sub-navigation-title {
-  font-family: Inter, X-LocaleSpecific, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.5;
@@ -3580,7 +3539,8 @@ html.is-firefox.ios .c-navigation .c-navigation-fxa-cta-container {
 }
 .c-sub-navigation .c-sub-navigation-item a:link,
 .c-sub-navigation .c-sub-navigation-item a:visited {
-  font-family: Inter, X-LocaleSpecific, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 14px;
   font-size: 0.875rem;
   line-height: 1.5;
