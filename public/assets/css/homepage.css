@@ -544,6 +544,14 @@ h1 {
     -ms-flex-pack: center;
     justify-content: center;
   }
+
+  .rotational-word-line {
+    margin-bottom: 10px;
+  }
+
+  .center-content {
+    top: 0px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1029,6 +1037,14 @@ h1 {
 
   .rotation-wrapper.home-wrapper {
     width: 260px;
+  }
+
+  .rotational-word-line {
+    margin-bottom: 10px;
+  }
+
+  .center-content {
+    top: 0px;
   }
 }
 
@@ -1735,10 +1751,18 @@ h1 {
 
   .rotation-wrapper.home-wrapper {
     width: 160px;
-    height: 44px;
+    height: 32px;
   }
 
   .rotational-word-line.home-line {
     width: 100%;
+  }
+
+  .rotational-word-line {
+    margin-bottom: 10px;
+  }
+
+  .center-content {
+    top: 0px;
   }
 }
