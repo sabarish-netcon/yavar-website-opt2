@@ -126,6 +126,77 @@
   }
 }
 
+/* ======================== */
+
+@media (min-width: 768px) {
+  .vpn-variable-pricing-block {
+    margin-top: 192px;
+  }
+}
+
+.vpn-pricing-variable-plans .vpn-content-block-container {
+  padding: 24px;
+  position: relative;
+}
+@media (min-width: 768px) {
+  .vpn-pricing-variable-plans .vpn-content-block-container {
+    padding-top: 80px;
+  }
+}
+
+@media (min-width: 768px) {
+  .vpn-pricing-variable-plans .vpn-content-block:after {
+    left: 24px;
+    top: 24px;
+  }
+  .vpn-pricing-variable-plans
+    .vpn-content-block-sub-heading
+    .js-vpn-monthly-price-display
+    span {
+    display: block;
+    margin-top: 16px;
+  }
+  @supports (display: grid) {
+    .vpn-pricing-variable-plans {
+      display: grid;
+      grid-column-gap: 64px;
+      grid-template-areas: "months-12 months-12" "months-6 monthly";
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+    }
+    .vpn-pricing-variable-plans
+      .vpn-content-block.t-highlight
+      .vpn-content-block-container {
+      height: calc(100% - (56px + 48px));
+      position: absolute;
+      width: calc(100% - 48px);
+    }
+  }
+}
+@media (min-width: 1024px) {
+  .vpn-pricing-variable-plans .vpn-content-block:after {
+    left: 16px;
+    top: 16px;
+  }
+  @supports (display: grid) {
+    .vpn-pricing-variable-plans {
+      grid-column-gap: 32px;
+      grid-template-areas: "months-12 months-6 monthly";
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: none;
+    }
+  }
+}
+
+.vpn-feature-list.mzp-u-list-styled {
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  display: inline-block;
+  list-style: none;
+  margin: 0 0 24px 0;
+}
+
 /* =============== */
 .yavar_logo {
   height: 32px;
