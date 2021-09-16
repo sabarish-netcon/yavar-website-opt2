@@ -126,7 +126,7 @@
   }
 }
 
-/* ======================== */
+/* ========== Offerings ============== */
 
 @media (min-width: 768px) {
   .vpn-variable-pricing-block {
@@ -197,7 +197,34 @@
   margin: 0 0 24px 0;
 }
 
-/* =============== */
+/* =======  Expertise start ======== */
+
+.vpn-faq-section-heading {
+  font-size: 38px;
+  font-size: 2.375rem;
+  line-height: 1.05;
+  margin-bottom: 96px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .vpn-faq-section-heading {
+    font-size: 48px;
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+.vpn-faq-item {
+  margin-bottom: 48px;
+}
+.vpn-faq-item-heading {
+  margin-bottom: 32px;
+  list-style: none;
+}
+.vpn-faq-item-heading:hover {
+  cursor: pointer;
+}
+
+/* ================== */
 .yavar_logo {
   height: 32px;
 }
