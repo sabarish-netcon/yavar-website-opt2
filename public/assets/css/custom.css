@@ -1,3 +1,13 @@
+.vpn-hero {
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .vpn-hero .mzp-l-content {
+    min-height: 480px;
+  }
+}
+
 .vpn-content-block {
   display: -webkit-box;
   display: -moz-box;
