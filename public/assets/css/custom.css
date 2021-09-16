@@ -224,6 +224,48 @@
   cursor: pointer;
 }
 
+.a-services__icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: unset;
+}
+
+@media only screen and (max-width: 480px) {
+  .a-services__icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+.a-services__icons-item {
+  max-height: 67px;
+  height: 67px;
+  width: 83px;
+  padding: 10px;
+  background: #fff;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.a-services__icons-item:last-child {
+  margin-right: 0;
+}
+
+.a-services__icons-item.shadow {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  position: relative;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+#expertise img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 /* ================= innovation start ================= */
 
 .vpn-pricing-variable-plans .vpn-content-block {
