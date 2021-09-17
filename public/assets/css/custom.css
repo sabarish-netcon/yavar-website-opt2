@@ -280,6 +280,17 @@
 
 /* ================= innovation start ================= */
 
+.lordicon {
+  width: 250px;
+  height: 250px;
+}
+
+@media only screen and (max-width: 480px) {
+  .lordicon {
+    margin-top: 15px;
+  }
+}
+
 .vpn-pricing-variable-plans .vpn-content-block {
   -webkit-box-align: start;
   align-items: start;
@@ -504,7 +515,6 @@
   .feature-wrapper {
     padding-top: 30px;
     padding-bottom: 30px;
-    text-align: left;
   }
 
   .feature-wrapper._2 {
