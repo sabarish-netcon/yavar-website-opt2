@@ -1,10 +1,21 @@
-.vpn-hero {
+.landing-page-yavar-section {
   text-align: center;
 }
 
 @media (min-width: 1024px) {
-  .vpn-hero .mzp-l-content {
+  .landing-page-yavar-section .landing-page-yavar-container {
     min-height: 480px;
+  }
+}
+
+@media (min-width: 768px) {
+  .landing-page-yavar-container {
+    padding: 64px 48px;
+  }
+}
+@media (min-width: 1312px) {
+  .landing-page-yavar-container {
+    padding: 80px 96px;
   }
 }
 
