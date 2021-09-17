@@ -209,6 +209,11 @@
   margin: 0 0 24px 0;
 }
 
+.vpn-pricing-variable-heading {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
 /* =======  Expertise start ======== */
 
 .vpn-faq-section-heading {
