@@ -39,19 +39,6 @@
   height: 100%;
 }
 
-.vpn-content-block:after {
-  background: #ededf0;
-  border-radius: 4px;
-  content: "";
-  display: block;
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: -1;
-}
-
 .vpn-content-block.y-highlight {
   background: #fff;
 }
@@ -138,7 +125,40 @@
   }
 }
 
+.quote {
+  margin-bottom: 30px;
+}
+
+.quoteImg {
+  width: 30px;
+  height: 30px;
+}
+
+.quoteText {
+  font-size: 1.2em;
+}
+
+.hashTag1 {
+  color: #55008d;
+}
+
+.hashTag2 {
+  color: #ff005c;
+}
+
+.hashTag3 {
+  color: #ffa415;
+}
+
 /* ========== Offerings ============== */
+
+#offerings .vpn-content-block-container {
+  text-align: center;
+}
+
+#offerings .vpn-content-block-container ul {
+  text-align: left;
+}
 
 @media (min-width: 768px) {
   .vpn-variable-pricing-block {
@@ -150,6 +170,16 @@
   padding: 24px;
   position: relative;
 }
+
+.vpn-pricing-variable-plans .vpn-content-block-container h3 {
+  height: 3em;
+}
+
+.lordicon-offering {
+  width: 200px;
+  height: 200px;
+}
+
 @media (min-width: 768px) {
   .vpn-pricing-variable-plans .vpn-content-block-container {
     padding-top: 80px;
@@ -304,6 +334,9 @@
 .vpn-pricing-variable-plans .vpn-content-block-container {
   padding: 24px;
   position: relative;
+}
+
+.vpn-pricing-variable-plans .vpn-content-block-container h3 {
   text-align: center;
 }
 
@@ -685,4 +718,17 @@
     -o-transition: opacity 1s ease-in-out;
     transition: opacity 1s ease-in-out;
   }
+}
+
+.vpn-content-block:after {
+  background: #ededf0;
+  border-radius: 4px;
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
 }

@@ -23,9 +23,12 @@ h1 {
 }
 
 .rotational-word-member._1,
-.rotational-word-member._2,
-.rotational-word-member._3 {
+.rotational-word-member._2 {
   color: #55008d;
+  font-weight: normal !important;
+}
+
+.rotational-word-member._3 {
   font-weight: normal !important;
 }
 
@@ -147,7 +150,7 @@ h1 {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-position: bottom center;
+  background-position: center center;
 }
 
 .landing-page-yavar-container {
@@ -191,23 +194,6 @@ h1 {
 .center-content {
   position: relative;
   top: -50px;
-}
-
-.quote {
-  border-left: 5px solid;
-  padding-left: 5px;
-}
-
-.quote1 {
-  border-left: 5px solid #55008d;
-}
-
-.quote2 {
-  border-left: 5px solid #ff005c;
-}
-
-.quote3 {
-  border-left: 5px solid #ffa415;
 }
 
 @media screen and (max-width: 991px) {
