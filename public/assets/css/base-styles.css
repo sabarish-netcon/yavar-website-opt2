@@ -126,11 +126,6 @@ hr {
     padding: 64px 48px;
   }
 }
-@media (min-width: 1312px) {
-  .mzp-l-content {
-    padding: 80px 96px;
-  }
-}
 .mzp-c-details .is-summary button,
 details .is-summary button {
   color: inherit;

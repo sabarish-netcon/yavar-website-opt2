@@ -154,6 +154,8 @@
 
 #offerings .vpn-content-block-container {
   text-align: center;
+  width: 100%;
+  height: 100%;
 }
 
 #offerings .vpn-content-block-container ul {
@@ -336,6 +338,8 @@
   position: relative;
 }
 
+/* #offerings .vpn-content-block-container */
+
 .vpn-pricing-variable-plans .vpn-content-block-container h3 {
   text-align: center;
 }
@@ -409,6 +413,11 @@
       grid-column-gap: 64px;
     }
   }
+}
+
+#innovation .vpn-content-block-container {
+  width: 100%;
+  height: 100%;
 }
 
 /* ================ Approach ==================== */
