@@ -1,3 +1,68 @@
+/* ================= header typewriting ============================ */
+
+:root {
+  --bg-color: #fff;
+  --typewriterSpeed: 6s;
+  --typewriterCharacters: 23;
+}
+
+p.typewritter {
+  font-family: "Source Code Pro", monospace;
+  position: relative;
+  width: max-content;
+  margin: 0;
+}
+
+p.typewritter::before,
+p.typewritter::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+p.typewritter::before {
+  background: var(--bg-color);
+  animation: typewriter var(--typewriterSpeed)
+    steps(var(--typewriterCharacters)) 1s forwards;
+}
+
+p.typewritter::after {
+  width: 0.125em;
+  background: black;
+  animation: typewriter var(--typewriterSpeed)
+      steps(var(--typewriterCharacters)) 1s forwards,
+    blink 750ms steps(var(--typewriterCharacters)) infinite;
+}
+
+@keyframes typewriter {
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes blink {
+  to {
+    background: transparent;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  p.typewritter {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  p.typewritter {
+    display: none;
+  }
+}
+
+/* ================= landing page ============================ */
+
 .landing-page-yavar-section {
   text-align: center;
 }
