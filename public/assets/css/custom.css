@@ -26,14 +26,14 @@ p.typewritter::after {
 p.typewritter::before {
   background: var(--bg-color);
   animation: typewriter var(--typewriterSpeed)
-    steps(var(--typewriterCharacters)) 1s forwards;
+    steps(var(--typewriterCharacters)) 1s infinite;
 }
 
 p.typewritter::after {
   width: 0.125em;
   background: black;
   animation: typewriter var(--typewriterSpeed)
-      steps(var(--typewriterCharacters)) 1s forwards,
+      steps(var(--typewriterCharacters)) 1s infinite,
     blink 750ms steps(var(--typewriterCharacters)) infinite;
 }
 
