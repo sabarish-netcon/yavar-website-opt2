@@ -485,6 +485,30 @@ p.typewritter::after {
   height: 100%;
 }
 
+#innovation a.w-inline-block {
+  display: block;
+}
+
+@media (min-width: 1312px) {
+  #about .vpn-content-block:after,
+  #innovation .vpn-content-block:after {
+    left: 32px;
+    top: 32px;
+  }
+}
+
+/* @media only screen and (max-width: 480px) {
+  #cf img {
+    position: absolute;
+    left: 0;
+    right: unset;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+  }
+} */
+
 /* ================ innovation saasly three column ==================== */
 
 .w-inline-block {
